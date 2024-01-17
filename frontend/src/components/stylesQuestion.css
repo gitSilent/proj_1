@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .accordion {
+    /* width: 500px; */
+  }
+  
+  .item {
+    padding-bottom: 20px;
+    padding-top: 21.5px;
+    border-bottom: 1px solid #E3E3E3;
+  }
+  
+  .title {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 11.5px;
+  }
+  
+  .active-title {
+    color: #00ba61;
+  }
+  
+  .not-active-title {
+    color: #2d2d2d;
+  }
+  
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s cubic-bezier(0, 1, 0, 1); /* Adjusted transition */
+  }
+  
+  .content.show {
+    max-height: 9999px;
+    transition: max-height 0.3s cubic-bezier(1, 0, 1, 0); /* Adjusted transition */
+  }
+      

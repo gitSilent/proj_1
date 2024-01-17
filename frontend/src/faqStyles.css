@@ -1,0 +1,69 @@
+/* .faq-row-wrapper {
+    .faq-title {
+    }
+
+    .faq-body {
+        .faq-row {
+            .row-title {
+            }
+
+            .row-content {
+                .row-content-text {
+                }
+            }
+        }
+    }
+} */
+
+.faq-row-wrapper {
+}
+
+.faq-title {
+}
+
+.faq-body {
+}
+
+.faq-row {
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+}
+.row-title{
+    padding: 0 !important;
+    margin-bottom: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+.row-title-text {
+    font-weight: 900;
+    font-size: 24px;
+    color: #2D2D2D;
+}
+
+@media screen and (max-width: 900px) {
+    .row-title-text{
+        font-size: 20px;
+    }
+  }
+
+.expanded .row-title-text, .expanding .row-title-text{
+    color: #00BA61;
+}
+
+.row-content {
+}
+.icon-wrapper{
+    /* top:25px !important; */
+    font-size:28px;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    
+}
+.row-content-text {
+    font-size: 16px !important;
+    color: #787878 !important;
+    line-height: 22.4px;
+    max-width: 980px;
+    width: 90%;
+}

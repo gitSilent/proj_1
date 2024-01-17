@@ -1,0 +1,29 @@
+.slide-up-enter {
+    transform: translateY(30%);
+    opacity: 0;
+  }
+  
+  .slide-up-enter.slide-up-enter-active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 300ms;
+  }
+  
+  .slide-up-exit {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .slide-up-exit.slide-up-exit-active {
+    transform: translateY(20%);
+    opacity: 0;
+    transition: all 300ms;
+  }
+
+  .active-btn {
+    z-index: 90 !important;
+  }
+
+  .list {
+    z-index: -1 !important;
+  }

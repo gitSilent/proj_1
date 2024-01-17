@@ -1,0 +1,41 @@
+/* <img style={{scale:"40%", rotate:"-10deg"}} src={MainFolder} alt="" className="main-folder z-[20] absolute right-[-131px] top-[128px] l:top-[453px] l:-right-[10px] medium-levitate" />
+<img src={MainPhone} alt="" className="main-phone z-[20] absolute l:top-[533px] l:right-[670px] small-levitate" />
+<img src={MainMac} alt="" className="main-mac z-[20] scaleX absolute l:top-[165px] l:right-[185px] hard-levitate" />
+<img style={{scale:"40%", rotate:"10deg"}} src={MainHeadphones} alt="" className="main-headphones z-[20] absolute top-[29px] right-[-194px] l:-top-[15px] l:right-[15px] medium-levitate" />
+<img src={MainWatch} alt="" className="main-watch z-[20] absolute l:top-[252px] l:right-[70px] small-levitate" /> */
+
+/* 
+.main-folder{
+    z-index: 20;
+    position: absolute;
+    right:-131px;
+    top:128px;
+    animation: small-levitate-animation 3s ease-in infinite alternate;
+    transform-origin: center;
+    transform: scale(500%);
+} */
+
+.main-phone{
+
+}
+
+.main-mac{
+
+}
+
+.main-headphones{
+
+}
+
+.main-watch{
+
+}
+
+
+/* @media screen and (min-width:1200px) {
+    .main-folder{
+        right:-10px;
+        top:453px;
+        transform: scale(100%);
+    }
+} */
